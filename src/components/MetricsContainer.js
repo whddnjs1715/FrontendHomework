@@ -1,23 +1,42 @@
+import { useEffect, useState } from 'react';
 import styled from 'styled-components';
 
 const MetricsContainer = () => {
+  const [traveler, setTraveler] = useState(0);
+  const [reviewer, setReviewer] = useState(0);
+  const [planer, setPlaner] = useState(0);
+  const countNum = () => {
+    if (planer < 650) {
+      setPlaner(planer + 1);
+    }
+    if (traveler < 350) {
+      setTraveler(traveler + 1);
+    }
+    if (reviewer < 21) {
+      setReviewer(reviewer + 1);
+    }
+  };
+
+  useEffect(() => {
+    countNum();
+  }, [planer]);
   return (
     <MetContainer>
       <div>
         <strong>
-          <span>700</span>만 명
+          <span>{traveler}</span>만 명
         </strong>
         의 여행자
       </div>
       <div>
         <strong>
-          <span>100</span>만 개
+          <span>{reviewer}</span>만 개
         </strong>
         의 여행 리뷰
       </div>
       <div>
         <strong>
-          <span>470</span>만 개
+          <span>{planer}</span>만 개
         </strong>
         의 여행 일정
       </div>
