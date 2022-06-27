@@ -7,18 +7,20 @@ const MetricsContainer = () => {
   const [planer, setPlaner] = useState(0);
   const countNum = () => {
     if (planer < 650) {
-      setPlaner(planer + 1);
+      setPlaner(planer + 50);
     }
-    if (traveler < 350) {
-      setTraveler(traveler + 1);
+    if (traveler <= 350) {
+      setTraveler(traveler + 50);
     }
-    if (reviewer < 21) {
-      setReviewer(reviewer + 1);
+    if (reviewer <= 20) {
+      setReviewer(reviewer + 3);
     }
   };
 
   useEffect(() => {
-    countNum();
+    const timer = setTimeout(() => {
+      countNum();
+    }, 1);
   }, [planer]);
   return (
     <MetContainer>
