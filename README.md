@@ -18,6 +18,7 @@
 
 ```bash
  <img src="https://img.shields.io/badge/-React-222222?style=for-the-badge&logo=react">
+ https://img.shields.io/badge/-React-222222?style=for-the-badge&logo=react
 ```
 
 <br>
