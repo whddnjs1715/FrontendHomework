@@ -17,8 +17,7 @@
 ## 📝 사용한 기술과 선택한 이유
 
 ```bash
- <img src="https://img.shields.io/badge/-React-222222?style=for-the-badge&logo=react">
- https://img.shields.io/badge/-React-222222?style=for-the-badge&logo=react
+<img src="https://user-images.githubusercontent.com/73818206/175901373-588e3c20-30bd-4887-820c-1f98c1187a3e.svg">
 ```
 
 <br>
