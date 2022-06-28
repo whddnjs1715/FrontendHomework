@@ -60,6 +60,7 @@ src
 ## 🖥 작동 화면
 
 <div style={display: flex;}>
-<img src="https://user-images.githubusercontent.com/73818206/176124247-084793dc-d4cc-477a-b67c-76e916c6117b.giff" alt="record" width="400" height="800" />
-
+<img src="https://user-images.githubusercontent.com/73818206/176124456-7b8535fa-8967-432c-ad86-652046680820.gif" />
+</div>
+ 
 <br>
