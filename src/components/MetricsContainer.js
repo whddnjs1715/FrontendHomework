@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import styled from 'styled-components';
-import Animation from '../hooks/Animation';
+import Animation from '../Animation/Animation';
 
 const MetricsContainer = () => {
   const [traveler, setTraveler] = useState(0);

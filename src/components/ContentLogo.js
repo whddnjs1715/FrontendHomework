@@ -1,6 +1,6 @@
-import styled, { keyframes } from 'styled-components';
+import styled from 'styled-components';
 import Logo from '../triple2x.jpg';
-import Animation from '../hooks/Animation';
+import Animation from '../Animation/Animation';
 
 const ContentLogo = () => {
   return <ContentContainer className="triple_image">2021년 12월 기준</ContentContainer>;

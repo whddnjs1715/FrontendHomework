@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import Animation from '../hooks/Animation';
+import Animation from '../Animation/Animation';
 import appstore from '../appstore.png';
 import playstore from '../playstore.png';
 
