@@ -45,7 +45,7 @@ src
  ┃  ┣ AwardsContainer.js
  ┃  ┣ ContentLogo.js
  ┃  ┗ MetricsContainer.js
- ┣ hooks
+ ┣ Animation
  ┃  ┗ Animation.js
  ┣ pages
  ┃  ┗ Main.js
