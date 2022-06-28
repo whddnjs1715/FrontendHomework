@@ -18,7 +18,7 @@ const ContentContainer = styled.div`
   font-size: 15px;
   padding-top: 280px;
   animation-name: ${Animation};
-  animation-duration: 1s;
+  animation-duration: 700ms;
   animation-iteration-count: 1;
   animation-direction: reverse;
 `;
