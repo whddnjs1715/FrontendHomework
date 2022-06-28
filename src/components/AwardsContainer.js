@@ -27,17 +27,16 @@ const Store = styled.div`
   animation-iteration-count: ;
   animation-direction: reverse;
 `;
-
 const Apple = styled.div`
   display: inline-block;
-  background-image: url(${playstore});
+  background-image: url(${appstore});
   background-size: 54px 54px;
   background-repeat: no-repeat;
   padding: 5px 0px 5px 62px;
 `;
 const Android = styled.div`
   display: inline-block;
-  background-image: url(${appstore});
+  background-image: url(${playstore});
   background-size: 54px 54px;
   background-repeat: no-repeat;
   padding: 5px 0px 5px 62px;
