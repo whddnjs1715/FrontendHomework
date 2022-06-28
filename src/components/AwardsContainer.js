@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import Animation from '../hooks/Animation';
 import appstore from '../appstore.png';
 import playstore from '../playstore.png';
 
@@ -21,6 +22,10 @@ const AwardsContainer = () => {
 
 const Store = styled.div`
   margin: 50px 0px 140px 623px;
+  animation-name: ${Animation};
+  animation-duration: 2s;
+  animation-iteration-count: ;
+  animation-direction: reverse;
 `;
 
 const Apple = styled.div`

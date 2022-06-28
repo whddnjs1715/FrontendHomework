@@ -32,7 +32,6 @@ src
  ┃  ┗ MetricsContainer.js
  ┣ pages
  ┃  ┗ Main.js
- ┣ App.css
  ┣ App.js
  ┣ index.js
  ┣ appstor.png

@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import styled from 'styled-components';
+import Animation from '../hooks/Animation';
 
 const MetricsContainer = () => {
   const [traveler, setTraveler] = useState(0);
@@ -20,7 +21,7 @@ const MetricsContainer = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       countNum();
-    }, 1);
+    }, 50);
   }, [planer]);
   return (
     <MetContainer>
@@ -52,6 +53,10 @@ const MetContainer = styled.div`
   font-size: 36px;
   letter-spacing: -1px;
   margin-bottom: 20px;
+  animation-name: ${Animation};
+  animation-duration: 1.5s;
+  animation-iteration-count: 1;
+  animation-direction: reverse;
 `;
 
 export default MetricsContainer;
