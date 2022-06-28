@@ -23,7 +23,7 @@ const AwardsContainer = () => {
 const Store = styled.div`
   margin: 50px 0px 140px 623px;
   animation-name: ${Animation};
-  animation-duration: 2s;
+  animation-duration: 900ms;
   animation-iteration-count: ;
   animation-direction: reverse;
 `;

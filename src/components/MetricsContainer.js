@@ -7,15 +7,9 @@ const MetricsContainer = () => {
   const [reviewer, setReviewer] = useState(0);
   const [planer, setPlaner] = useState(0);
   const countNum = () => {
-    if (planer < 650) {
-      setPlaner(planer + 50);
-    }
-    if (traveler <= 350) {
-      setTraveler(traveler + 50);
-    }
-    if (reviewer <= 20) {
-      setReviewer(reviewer + 3);
-    }
+    planer < 650 ? setPlaner(planer + 50) : setPlaner(650);
+    traveler <= 350 ? setTraveler(traveler + 50) : setTraveler(350);
+    reviewer <= 20 ? setReviewer(reviewer + 3) : setReviewer(20);
   };
 
   useEffect(() => {
@@ -54,7 +48,7 @@ const MetContainer = styled.div`
   letter-spacing: -1px;
   margin-bottom: 20px;
   animation-name: ${Animation};
-  animation-duration: 1.5s;
+  animation-duration: 800ms;
   animation-iteration-count: 1;
   animation-direction: reverse;
 `;
